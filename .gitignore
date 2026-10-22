@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large data — not for GitHub (CIC-IDS2017 corpora, scored extracts)
+datasets/
+*.pcap
+*.pcapng
+*.zip
+*.npz
+*.npy
+*.parquet
+
+# Local scratch
+*.log
+.run/

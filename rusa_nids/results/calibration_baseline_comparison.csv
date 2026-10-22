@@ -1,0 +1,4 @@
+config,mean_dropped_deadline,stdev
+"paper_default (eta=1.5, slack=0.25)",620.75,161.19
+no_risk_term (eta=0),612.88,161.66
+"nested_cv_selected (per-fold eta/slack, held-out eval)",552.88,118.38

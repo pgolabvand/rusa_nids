@@ -1,0 +1,6 @@
+held_out_day,selected_eta,selected_slack,train_mean_dropped_deadline,held_out_dropped_deadline
+Friday,3.0,2.0,355.5,421
+Monday,0.5,0.25,457.75,2
+Thursday,0.5,0.25,416.25,168
+Tuesday,0.5,1.0,408.75,205
+Wednesday,0.5,0.25,186.25,1088

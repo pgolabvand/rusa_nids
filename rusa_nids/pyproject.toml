@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rusa-nids"
+version = "0.1.0"
+description = "RUSA-NIDS: Risk-, Uncertainty-, and System-Aware NIDS Scheduler (research prototype)"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov"]
+ray = ["ray>=2.9"]
+
+[tool.setuptools.packages.find]
+include = ["rusa_nids*"]
